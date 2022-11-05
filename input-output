@@ -7,12 +7,12 @@ public class Main
 	    
 		System.out.println("enter value");
 		Scanner input= new Scanner(System.in);
-		//input.nextInt();
-		//int a=input.nextInt();
-		System.out.println(input.nextInt());
+		
+		int a=input.nextInt();
+		System.out.println(a);
 		System.out.println("enter float value");
-		System.out.println(input.nextFloat());
-	//	float f=input.nextFloat();
-	//	System.out.println(f);
+
+		float f=input.nextFloat();
+		System.out.println(f);
 	}
 }
